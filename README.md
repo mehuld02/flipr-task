@@ -126,35 +126,7 @@ Admin can view:
 - CORS
 
 - dotenv
-
-# 📁 Folder Structure
-project/  
-│
-├── backend/  
-│   ├── config/db.js  
-│   ├── controllers/  
-│   ├── middleware/  
-│   ├── models/  
-│   ├── routes/  
-│   ├── uploads/  
-│   ├── server.js  
-│   ├── seedAdmin.js   
-│   ├── package.json  
-│   ├── .env  
-│
-└── frontend/  
-    ├── src/  
-    │   ├── pages/  
-    │   │   ├── LandingPage.jsx  
-    │   │   ├── ProjectsStyled.jsx    
-    │   │   ├── HappyClients.jsx  
-    │   │   ├── AdminPanel.jsx  
-    │   ├── components/  
-    │   ├── api/apiClient.js  
-    │   ├── App.js  
-    │   └── index.js  
-    ├── package.json  
-
+  
 # ▶️ Installation Guide
 ## 1️⃣ Clone the repository
 git clone git remote add origin https://github.com/mehuld02/flipr-task.git
