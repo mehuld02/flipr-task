@@ -5,164 +5,159 @@ This is a complete MERN stack application built for the Flipr Fullstack Placemen
 It includes a modern landing page, API-powered content sections, admin panel with authentication, database storage, and image upload support.
 
 # ✨ Features Overview
-🟦 Landing Page (User Side)
-✔ Hero Section (Option A Chosen)
+🟦 Landing Page (User Side)  
+✔ Hero Section (Option A Chosen)  
 ✔ Our Projects Section
 
-Dynamic list fetched from backend:
+Dynamic list fetched from backend:  
 Each project includes:
 
-Image
+- Image
 
-Name
+- Name
 
-Description
+- Description
 
-Non-functional “Read More” button
+- Non-functional “Read More” button
 
 # ✔ Happy Clients Section
 
 Fetched from backend. Each client includes:
 
-Image
+- Image
 
-Name
+- Name
 
-Designation
+- Designation
 
-Description
+- Description
 
 # ✔ Contact Form
 
 Collects:
 
-Full Name
+- Full Name
 
-Email
+- Email
 
-Mobile Number
+- Mobile Number
 
-City
+- City
 
 Data is sent to backend and visible inside the Admin Panel.
 
 # ✔ Newsletter Subscription
 
-Collects email → stored in backend → admin can view.
+- Collects email → stored in backend → admin can view.
 
 🟩 Admin Panel (Admin Side)
-🔐 Admin Authentication
 
-Secure login using JWT token stored in localStorage.
-
-🛠️ Project Management
+## 🛠️ Project Management
 
 Admin can:
 
-Add project
+= Add project
 
-Upload image
+- Upload image
 
-Delete project
+- Delete project
 
-View all projects
+- View all projects
 
-🧑‍🤝‍🧑 Client Management
+## 🧑‍🤝‍🧑 Client Management
 
 Admin can:
 
-Add client
+- Add client
 
-Upload image
+- Upload image
 
-Add designation
+- Add designation
 
-Delete client
+- Delete client
 
 View all clients
 
-✉ Contact Form Management
+## ✉ Contact Form Management
 
-Admin sees:
+- Name
 
-Name
+- Email
 
-Email
+- Mobile
 
-Mobile
+- City
 
-City
-
-📧 Subscriber Management
+## 📧 Subscriber Management
 
 Admin can view:
 
-All newsletter subscriber emails
+- All newsletter subscriber emails
 
 # 🗂️ Tech Stack
 ## 🌐 Frontend
 
-React.js
+- React.js
 
-React Router
+- React Router
 
-TailwindCSS
+- TailwindCSS
 
-Axios
+- Axios
 
-Framer Motion (optional)
+- Framer Motion (optional)
 
 ## 🖥 Backend
 
-Node.js
+- Node.js
 
-Express.js
+- Express.js
 
-MongoDB + Mongoose
+- MongoDB + Mongoose
 
-JWT Authentication
+- JWT Authentication
 
-Bcrypt
+- Bcrypt
 
-Multer (file upload)
+- Multer (file upload)
 
-Sharp (image processing)
+- Sharp (image processing)
 
-CORS
+- CORS
 
-dotenv
+- dotenv
 
 # 📁 Folder Structure
-project/
+project/  
 │
-├── backend/
-│   ├── config/db.js
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── uploads/
-│   ├── server.js
-│   ├── seedAdmin.js
-│   ├── package.json
-│   ├── .env
+├── backend/  
+│   ├── config/db.js  
+│   ├── controllers/  
+│   ├── middleware/  
+│   ├── models/  
+│   ├── routes/  
+│   ├── uploads/  
+│   ├── server.js  
+│   ├── seedAdmin.js   
+│   ├── package.json  
+│   ├── .env  
 │
-└── frontend/
-    ├── src/
-    │   ├── pages/
-    │   │   ├── LandingPage.jsx
-    │   │   ├── ProjectsStyled.jsx
-    │   │   ├── HappyClients.jsx
-    │   │   ├── AdminPanel.jsx
-    │   ├── components/
-    │   ├── api/apiClient.js
-    │   ├── App.js
-    │   └── index.js
-    ├── package.json
+└── frontend/  
+    ├── src/  
+    │   ├── pages/  
+    │   │   ├── LandingPage.jsx  
+    │   │   ├── ProjectsStyled.jsx    
+    │   │   ├── HappyClients.jsx  
+    │   │   ├── AdminPanel.jsx  
+    │   ├── components/  
+    │   ├── api/apiClient.js  
+    │   ├── App.js  
+    │   └── index.js  
+    ├── package.json  
 
 # ▶️ Installation Guide
 ## 1️⃣ Clone the repository
-git clone <your-repo-url>
+git clone git remote add origin https://github.com/mehuld02/flipr-task.git
 
 ## 2️⃣ Backend Setup
 cd backend
